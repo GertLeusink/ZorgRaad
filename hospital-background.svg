@@ -1,0 +1,57 @@
+<svg width="1920" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hospital-themed background with blue tones -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e3f2fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90caf9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="1920" height="1080" fill="url(#skyGradient)"/>
+  
+  <!-- Hospital building silhouette -->
+  <g opacity="0.3">
+    <!-- Main building -->
+    <rect x="700" y="500" width="520" height="480" fill="#1565c0"/>
+    <!-- Left wing -->
+    <rect x="500" y="600" width="200" height="380" fill="#1976d2"/>
+    <!-- Right wing -->
+    <rect x="1220" y="600" width="200" height="380" fill="#1976d2"/>
+    
+    <!-- Medical cross on main building -->
+    <rect x="920" y="650" width="80" height="200" fill="#ffffff"/>
+    <rect x="880" y="710" width="160" height="80" fill="#ffffff"/>
+    
+    <!-- Windows on left wing -->
+    <rect x="520" y="620" width="40" height="50" fill="#64b5f6"/>
+    <rect x="580" y="620" width="40" height="50" fill="#64b5f6"/>
+    <rect x="640" y="620" width="40" height="50" fill="#64b5f6"/>
+    <rect x="520" y="690" width="40" height="50" fill="#64b5f6"/>
+    <rect x="580" y="690" width="40" height="50" fill="#64b5f6"/>
+    <rect x="640" y="690" width="40" height="50" fill="#64b5f6"/>
+    <rect x="520" y="760" width="40" height="50" fill="#64b5f6"/>
+    <rect x="580" y="760" width="40" height="50" fill="#64b5f6"/>
+    <rect x="640" y="760" width="40" height="50" fill="#64b5f6"/>
+    
+    <!-- Windows on right wing -->
+    <rect x="1240" y="620" width="40" height="50" fill="#64b5f6"/>
+    <rect x="1300" y="620" width="40" height="50" fill="#64b5f6"/>
+    <rect x="1360" y="620" width="40" height="50" fill="#64b5f6"/>
+    <rect x="1240" y="690" width="40" height="50" fill="#64b5f6"/>
+    <rect x="1300" y="690" width="40" height="50" fill="#64b5f6"/>
+    <rect x="1360" y="690" width="40" height="50" fill="#64b5f6"/>
+    <rect x="1240" y="760" width="40" height="50" fill="#64b5f6"/>
+    <rect x="1300" y="760" width="40" height="50" fill="#64b5f6"/>
+    <rect x="1360" y="760" width="40" height="50" fill="#64b5f6"/>
+    
+    <!-- Main building windows -->
+    <rect x="740" y="540" width="50" height="60" fill="#42a5f5"/>
+    <rect x="820" y="540" width="50" height="60" fill="#42a5f5"/>
+    <rect x="1050" y="540" width="50" height="60" fill="#42a5f5"/>
+    <rect x="1130" y="540" width="50" height="60" fill="#42a5f5"/>
+  </g>
+  
+  <!-- Ground -->
+  <rect x="0" y="980" width="1920" height="100" fill="#2e7d32" opacity="0.2"/>
+</svg>
